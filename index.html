@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DARCOD — Black Fits Better</title>
+  <meta name="description" content="DARCOD — Premium dark streetwear brand. Black Fits Better. Explore our exclusive drops designed for those who dare to stand out in black." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════ LOADER ═══════════ -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <span class="loader-brand">DARCOD</span>
+      <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+  </div>
+
+  <!-- ═══════════ CURSOR GLOW ═══════════ -->
+  <div id="cursor-glow" class="cursor-glow"></div>
+
+  <!-- ═══════════ NAV ═══════════ -->
+  <nav id="navbar" class="navbar">
+    <a href="#hero" class="nav-logo">DARCOD</a>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#drops" class="nav-link">Drops</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ═══════════ MOBILE MENU ═══════════ -->
+  <div id="mobile-menu" class="mobile-menu">
+    <ul class="mobile-links">
+      <li><a href="#hero" class="mobile-link">Home</a></li>
+      <li><a href="#drops" class="mobile-link">Drops</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section id="hero" class="hero">
+    <!-- Background Video Container -->
+    <div class="hero-video-container">
+      <video class="hero-video-bg" autoplay loop muted playsinline>
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-smoke-and-lights-background-loop-42861-large.mp4" type="video/mp4">
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+    <div class="hero-bg-grain"></div>
+    <div class="hero-bg-particles" id="particles"></div>
+    <div class="hero-bg-glows">
+      <div class="glow-blob glow-1"></div>
+      <div class="glow-blob glow-2"></div>
+      <div class="glow-blob glow-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-pre reveal-up">— EST. 2025 —</p>
+      <h1 class="hero-title">
+        <span class="hero-title-line reveal-up" style="--d:0.1s">DAR</span>
+        <span class="hero-title-line reveal-up" style="--d:0.25s">COD</span>
+      </h1>
+      <div class="hero-slogan-wrap reveal-up" style="--d:0.45s">
+        <div class="slogan-line"></div>
+        <p class="hero-slogan">Black Fits Better</p>
+        <div class="slogan-line"></div>
+      </div>
+      <a href="#drops" class="hero-cta reveal-up" style="--d:0.6s">
+        <span>Explore Drops</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span class="scroll-text">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ MARQUEE ═══════════ -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span>BLACK FITS BETTER</span><span class="marquee-dot">✦</span>
+      <span>DARCOD</span><span class="marquee-dot">✦</span>
+      <span>NEW DROP</span><span class="marquee-dot">✦</span>
+      <span>LIMITED EDITION</span><span class="marquee-dot">✦</span>
+      <span>BLACK FITS BETTER</span><span class="marquee-dot">✦</span>
+      <span>DARCOD</span><span class="marquee-dot">✦</span>
+      <span>NEW DROP</span><span class="marquee-dot">✦</span>
+      <span>LIMITED EDITION</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══════════ DROPS / PRODUCTS ═══════════ -->
+  <section id="drops" class="drops">
+    <div class="section-header reveal-up">
+      <span class="section-tag">Latest</span>
+      <h2 class="section-title">The Drop</h2>
+      <p class="section-sub">Limited pieces. Once they're gone, they're gone.</p>
+    </div>
+
+    <div class="drops-grid">
+      <!-- PRODUCT 1 — Black Air -->
+      <div class="product-card reveal-up" style="--d:0.1s">
+        <div class="product-image-wrap">
+          <img src="imges/download (3).jfif" alt="Black Air Tee" class="product-image" onerror="this.parentElement.classList.add('no-img')" />
+          <div class="product-badge">NEW</div>
+          <div class="product-hover-overlay">
+            <span class="product-quick">View</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">BLACK AIR</h3>
+          <p class="product-type">Oversized Tee</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 2 — Demons -->
+      <div class="product-card reveal-up" style="--d:0.2s">
+        <div class="product-image-wrap">
+          <img src="imges/download (2).jfif" alt="Demons Tee" class="product-image" onerror="this.parentElement.classList.add('no-img')" />
+          <div class="product-badge hot">HOT</div>
+          <div class="product-hover-overlay">
+            <span class="product-quick">View</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">DEMONS</h3>
+          <p class="product-type">Oversized Tee</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 3 — Programmed -->
+      <div class="product-card reveal-up" style="--d:0.3s">
+        <div class="product-image-wrap">
+          <img src="imges/download (4).jfif" alt="Programmed Tee" class="product-image" onerror="this.parentElement.classList.add('no-img')" />
+          <div class="product-badge sold">SOLD OUT</div>
+          <div class="product-hover-overlay">
+            <span class="product-quick">View</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">PROGRAMMED</h3>
+          <p class="product-type">Washed Oversized Tee</p>
+        </div>
+      </div>
+
+      <!-- PRODUCT 4 — The Dream -->
+      <div class="product-card reveal-up" style="--d:0.4s">
+        <div class="product-image-wrap">
+          <img src="imges/download (5).jfif" alt="The Dream Tee" class="product-image" onerror="this.parentElement.classList.add('no-img')" />
+          <div class="product-badge">LIMITED</div>
+          <div class="product-hover-overlay">
+            <span class="product-quick">View</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">THE DREAM</h3>
+          <p class="product-type">Washed Oversized Tee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ STATEMENT BANNER ═══════════ -->
+  <section class="statement-banner">
+    <div class="statement-inner">
+      <p class="statement-text reveal-up">
+        "We don't follow trends.<br/>
+        <span class="statement-highlight">We wear the dark.</span>"
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-text-col">
+        <span class="section-tag reveal-up">The Brand</span>
+        <h2 class="section-title reveal-up" style="--d:0.1s">Born From<br/>The Dark</h2>
+        <p class="about-desc reveal-up" style="--d:0.2s">
+          DARCOD isn't just a brand — it's a statement. We believe that black isn't the absence of color;
+          it's the presence of confidence. Every stitch, every fabric, every silhouette is crafted for those
+          who know that <em>Black Fits Better</em>.
+        </p>
+        <p class="about-desc reveal-up" style="--d:0.3s">
+          From the streets to the spotlight, DARCOD dresses the bold, the fearless, and the unapologetically dark.
+        </p>
+        <div class="about-stats reveal-up" style="--d:0.4s">
+          <div class="stat">
+            <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Designs</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="10">0</span><span class="stat-plus">K+</span>
+            <span class="stat-label">Customers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+            <span class="stat-label">Black</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual-col reveal-up" style="--d:0.2s">
+        <div class="about-visual">
+          <div class="about-visual-text">DARCOD</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FEATURES ═══════════ -->
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature-item reveal-up" style="--d:0.1s">
+        <div class="feature-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <h3 class="feature-title">Premium Quality</h3>
+        <p class="feature-desc">Hand-selected heavy cotton that feels as good as it looks.</p>
+      </div>
+      <div class="feature-item reveal-up" style="--d:0.2s">
+        <div class="feature-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        </div>
+        <h3 class="feature-title">Worldwide Shipping</h3>
+        <p class="feature-desc">Darkness delivered to your doorstep, anywhere on earth.</p>
+      </div>
+      <div class="feature-item reveal-up" style="--d:0.3s">
+        <div class="feature-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 class="feature-title">Limited Drops</h3>
+        <p class="feature-desc">Exclusive pieces for the ones who never follow the crowd.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTACT ═══════════ -->
+  <section id="contact" class="contact">
+    <div class="contact-grid">
+      <div class="contact-info-col">
+        <span class="section-tag reveal-up">Get In Touch</span>
+        <h2 class="section-title reveal-up" style="--d:0.1s">Let's Talk</h2>
+        <p class="contact-desc reveal-up" style="--d:0.2s">
+          Have a question, a collab idea, or want to stock DARCOD?<br/>
+          We'd love to hear from you.
+        </p>
+        <div class="contact-details reveal-up" style="--d:0.3s">
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>hello@darcod.com</span>
+          </div>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Cairo, Egypt</span>
+          </div>
+        </div>
+        <div class="social-links reveal-up" style="--d:0.4s">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="TikTok">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter/X">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-6.768M13.232 10.232L20 4"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-col reveal-up" style="--d:0.2s">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="form-name" name="name" placeholder=" " required />
+            <label for="form-name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="form-email" name="email" placeholder=" " required />
+            <label for="form-email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <textarea id="form-message" name="message" rows="4" placeholder=" " required></textarea>
+            <label for="form-message">Your Message</label>
+          </div>
+          <button type="submit" class="form-submit" id="form-submit-btn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">DARCOD</span>
+        <p class="footer-tagline">Black Fits Better</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#drops">Drops</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 DARCOD. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
